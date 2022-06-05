@@ -11,7 +11,7 @@ const sorter = (names, sortFunc) => {
   const result = [];
 
   for (let i = 0; i < sortNames.length; i++) {
-    result.push(`Urutan List Nama : ${i+1}. ${sortNames[i]}`);
+    result.push(`${i+1}. ${sortNames[i]}`);
   }
 
   return result;
